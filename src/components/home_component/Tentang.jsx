@@ -1,10 +1,11 @@
 import React from "react";
 import About from "/assets/about-image1.png";
 import { Link } from "react-router-dom";
+import Bgtentang from "/assets/background_img/bgTentang.png";
 
 const Tentang = () => {
   return (
-    <section id="tentang-program" className="relative h-[1240px] lg:h-[1024px] w-[430]flex-row lg:flex tentang">
+    <section id="tentang-program" className="relative h-[1240px] lg:h-[1024px] w-[430]flex-row lg:flex bg-[url('/assets/background_img/bgTentang.png')] bg-cover bg-center">
       <div className="flex w-full h-[400px] lg:w-1/2 lg:h-full  justify-center items-center">
         <div className=" w-[330px] lg:w-[630px] lg:h-[550px] h-[290px]">
           <img src={About} alt="about image" className="w-auto h-auto" />

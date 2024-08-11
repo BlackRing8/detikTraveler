@@ -7,7 +7,7 @@ import Artikel4 from "/assets/artikel-4.png";
 
 const Berita = () => {
   return (
-    <section id="berita" className="w-full h-[1090px] lg:h-[1000px] bg-berita justify-center flex pt-24">
+    <section id="berita" className="w-full h-[1090px] lg:h-[1000px] bg-berita justify-center flex pt-24 bg-[url('/assets/background_img/bgBerita.png')] bg-cover bg-center">
       <div className="w-[400px] h-[900px] lg:w-[1296px] lg:h-[698px]  flex-row  lg:pt-8 lg:mt-10">
         {/* Logo */}
         <div className="flex ">

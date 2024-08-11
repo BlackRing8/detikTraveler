@@ -2,7 +2,7 @@ import React from "react";
 
 const Registrasi = () => {
   return (
-    <section className="h-[1213px] lg: w-full bg-registrasi justify-center items-center flex">
+    <section className="h-[1213px] lg: w-full bg-registrasi justify-center items-center flex bg-[url('/assets/background_img/bgRegistrasi.png')] bg-cover bg-center">
       <div className="w-[381px] h-[918px] lg:w-full space-y-2 flex-row lg:mt-24">
         <div className="w-full h-[67px] lg:w-[318px]  lg:mx-auto flex-row text-center text-white mb-5">
           <h1 className="text-3xl">Registrasi</h1>
