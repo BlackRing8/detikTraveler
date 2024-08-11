@@ -21,7 +21,7 @@ const Berita = () => {
           {/* Artikel 1 */}
           <div className="flex-row mt-5  lg:w-1/2">
             <a href="" className="w-[400px] h-[304px] lg:w-[636px] lg:h-[607px] rounded-3xl flex-row text-white hover:text-yellow-500 transition-colors duration-300">
-              <div className="w-full h-[209px] lg:h-[480px] overflow-hidden ">
+              <div className="w-full h-[209px] lg:h-[480px] overflow-hidden rounded-t-3xl">
                 <img src={Artikel1} className="w-full h-full rounded-t-3xl hover:scale-110" alt="" />
               </div>
               <div className="w-full h-[95px] lg:h-[127px] bg-[#00D1FF] rounded-b-3xl flex-row">
@@ -33,7 +33,7 @@ const Berita = () => {
           {/* Artikel 2-4 */}
           <div className="w-[400px] flex-row  h-[740px] mt-10 lg:mt-0  lg:w-1/2 lg:pl-10">
             <a href="" className="h-[130px] lg:h-[146px] w-[400] flex  my-5 lg:mb-7 hover:text-[#00D1FF]">
-              <div className="w-[130px] h-[130px] lg:h-[146px] lg:w-[195px] overflow-hidden ">
+              <div className="w-[130px] h-[130px] lg:h-[146px] lg:w-[195px] overflow-hidden rounded-2xl">
                 <img src={Artikel2} className="h-full w-full rounded-2xl hover:scale-110" alt="" />
               </div>
               <div className="flex-row w-[270px]">
@@ -42,7 +42,7 @@ const Berita = () => {
               </div>
             </a>
             <a href="" className="h-[130px] lg:h-[146px] w-[400] flex  my-5 lg:my-7 hover:text-[#00D1FF]">
-              <div className="w-[130px] h-[130px] lg:h-[146px] lg:w-[195px] overflow-hidden ">
+              <div className="w-[130px] h-[130px] lg:h-[146px] lg:w-[195px] overflow-hidden rounded-2xl">
                 <img src={Artikel3} className="h-full w-full rounded-2xl hover:scale-110" alt="" />
               </div>
               <div className="flex-row w-[270px]">
@@ -51,7 +51,7 @@ const Berita = () => {
               </div>
             </a>
             <a href="" className="h-[130px] lg:h-[146px] w-[400] flex  my-5 lg:mh-7 hover:text-[#00D1FF]">
-              <div className="w-[130px] h-[130px] lg:h-[146px] lg:w-[195px] overflow-hidden ">
+              <div className="w-[130px] h-[130px] lg:h-[146px] lg:w-[195px] overflow-hidden rounded-2xl">
                 <img src={Artikel4} className="h-full w-full rounded-2xl hover:scale-110" alt="" />
               </div>
               <div className="flex-row w-[270px]">
