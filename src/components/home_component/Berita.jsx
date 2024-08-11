@@ -8,7 +8,7 @@ import Artikel4 from "/assets/artikel-4.png";
 const Berita = () => {
   return (
     <section id="berita" className="w-full h-[1090px] lg:h-[1000px] bg-berita justify-center flex pt-24 bg-[url('/assets/background_img/bgBerita.png')] bg-cover bg-center">
-      <div className="w-[400px] h-[900px] lg:w-[1296px] lg:h-[698px]  flex-row  lg:pt-8 lg:mt-10">
+      <div className="w-[400px] h-[900px] lg:w-[1296px] lg:h-[698px]  flex-row  lg:pt-8 lg:mt-10 px-5">
         {/* Logo */}
         <div className="flex ">
           <div className=" w-[160px] h-[26.4px] mt-3">
@@ -36,7 +36,7 @@ const Berita = () => {
               <div className="w-[130px] h-[130px] lg:h-[146px] lg:w-[195px] overflow-hidden rounded-2xl">
                 <img src={Artikel2} className="h-full w-full rounded-2xl hover:scale-110" alt="" />
               </div>
-              <div className="flex-row w-[270px]">
+              <div className="flex-row w-[250px] lg:w-[270px]">
                 <h3 className="px-2"> Thailand Ngarep Cuan Banyak dari Turis China dan Jepang</h3>
                 <p className="text-sm px-2 text-black">1 Jam Yang lalu</p>
               </div>
@@ -45,16 +45,16 @@ const Berita = () => {
               <div className="w-[130px] h-[130px] lg:h-[146px] lg:w-[195px] overflow-hidden rounded-2xl">
                 <img src={Artikel3} className="h-full w-full rounded-2xl hover:scale-110" alt="" />
               </div>
-              <div className="flex-row w-[270px]">
+              <div className="flex-row w-[250px] lg:w-[270px]">
                 <h3 className="px-2"> Cahaya Lampu Hiasi Kuil Wat Phra Dhammakaya Thailand Saat Waisak</h3>
                 <p className="text-sm px-2 text-black">1 Jam Yang lalu</p>
               </div>
             </a>
-            <a href="" className="h-[130px] lg:h-[146px] w-[400] flex  my-5 lg:mh-7 hover:text-[#00D1FF]">
+            <a href="" className="h-[130px] lg:h-[146px] w-[400] flex   my-5 lg:mh-7 hover:text-[#00D1FF]">
               <div className="w-[130px] h-[130px] lg:h-[146px] lg:w-[195px] overflow-hidden rounded-2xl">
                 <img src={Artikel4} className="h-full w-full rounded-2xl hover:scale-110" alt="" />
               </div>
-              <div className="flex-row w-[270px]">
+              <div className="flex-row w-[250px] lg:w-[270px]">
                 <h3 className="px-2"> Cantiknya Lisa BLACKPINK Berwisata Sejarah di Thailand</h3>
                 <p className="text-sm px-2 text-black">1 Jam Yang lalu</p>
               </div>

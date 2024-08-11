@@ -6,16 +6,16 @@ import Bgtentang from "/assets/background_img/bgTentang.png";
 const Tentang = () => {
   return (
     <section id="tentang-program" className="relative h-[1240px] lg:h-[1024px] w-[430]flex-row lg:flex bg-[url('/assets/background_img/bgTentang.png')] bg-cover bg-center">
-      <div className="flex w-full h-[400px] lg:w-1/2 lg:h-full  justify-center items-center">
+      <div className="flex w-full h-[400px] lg:w-1/2 lg:h-full  justify-center items-center ">
         <div className=" w-[330px] lg:w-[630px] lg:h-[550px] h-[290px]">
           <img src={About} alt="about image" className="w-auto h-auto" />
         </div>
       </div>
-      <div className="w-full h-[840px] lg:w-1/2 lg:h-full justify-center lg:items-center flex">
-        <div className="flex-row ">
-          <div className="flex-row w-[390px] h-[300px] lg:w-[630px] lg:[225px]">
+      <div className="w-[390px] h-[840px] lg:w-1/2 lg:h-full justify-center lg:items-center flex bg-red-500 mx-auto">
+        <div className="flex-row  w-[390px] h-[840px] px-2 lg:px-0">
+          <div className="flex-row w-[360px] h-[300px] lg:w-[600px] lg:[225px]">
             <h1 className="text-white font-bold text-2xl p-2 tracking-wider">Tentang Program</h1>
-            <p className="p-2 text-white font-medium tracking-wide mb-3">
+            <p className="lg:p-2 text-white font-medium tracking-wide mb-3">
               Bergabunglah dalam "Explore Thailand bersama Detiktravel"! Kompetisi ini terbuka bagi pembaca Detiktravel yang ingin menikmati perjalanan ke Thailand. Kunjungi destinasi menakjubkan seperti pantai Pak Bia Island dan destinasi
               lain di Phuket, Thailand. Jadi bagian dari perjalanan kami dan menangkan hadiah jalan-jalan yang tak terlupakan!
             </p>
@@ -23,7 +23,7 @@ const Tentang = () => {
               DAFTAR SEKARANG
             </Link>
           </div>
-          <div className="flex-row w-[390px] h-[421px]  lg:w-[566px] lg:h-[417px]">
+          <div className="flex-row w-[390px] h-[421px]  lg:w-[566px] lg:h-[417px] px-2">
             <h1 className="text-white font-bold text-2xl p-2 tracking-wider">Mekanisme</h1>
             <div className="flex w-full h-1/3 lg:h-[109px]">
               <div className="flex h-full lg:w-[37px] w-[40px] ">
@@ -33,7 +33,7 @@ const Tentang = () => {
                   <line x1="20" y1="46" x2="20" y2="115" stroke="white" strokeDasharray="4 4" />
                 </svg>
               </div>
-              <div className="flex-row ml-3">
+              <div className="flex-row ml-3 w-[300px] lg:w-[500px]">
                 <h2 className="text-white tracking-wider text-2xl">Isi Formulir</h2>
                 <h2 className="text-[#FFE03C] tracking-wider text-xl mt-2">1 - 31 Mei 2023</h2>
                 <p className="text-white mt-2">Lengkapi formulir pendaftaran dengan data sebenarnya</p>
