@@ -11,7 +11,7 @@ const Tentang = () => {
           <img src={About} alt="about image" className="w-auto h-auto" />
         </div>
       </div>
-      <div className="w-[390px] h-[840px] lg:w-1/2 lg:h-full justify-center lg:items-center flex bg-red-500 mx-auto">
+      <div className="w-[390px] h-[840px] lg:w-1/2 lg:h-full justify-center lg:items-center flex mx-auto">
         <div className="flex-row  w-[390px] h-[840px] px-2 lg:px-0">
           <div className="flex-row w-[360px] h-[300px] lg:w-[600px] lg:[225px]">
             <h1 className="text-white font-bold text-2xl p-2 tracking-wider">Tentang Program</h1>
