@@ -3,7 +3,7 @@ import LogoF from "/assets/logo/logo-footer.png";
 
 const Footer = () => {
   return (
-    <footer className="absolute flex h-[536px] lg:h-[367px] w-full bg-[#00D1FF] justify-center items-center ">
+    <footer className="absolute flex h-[536px] lg:h-[367px] w-full bg-[#00D1FF] justify-center items-center  ">
       <div className="flex-row w-[398px] h-[498px] lg:h-[267px]  lg:w-[1300px]">
         <div className="flex w-[286px] h-[98px] mx-auto lg:mx-0">
           <img src={LogoF} alt="" className="" />
